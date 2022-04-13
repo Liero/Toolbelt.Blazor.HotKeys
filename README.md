@@ -197,6 +197,10 @@ And you can specify the `Exclude.ContentEditable` to register the unavailable ho
 
 ## Limitations
 
+### Only global hotkeys
+
+Currently hotkey bindings cannot be scoped to specific element. Only global bindings are supported
+
 ### No "Cheat Sheet"
 
 Unlike ["angular-hotkeys"](https://github.com/chieffancypants/angular-hotkeys), this library doesn't provide "cheat sheet" feature, at this time.
